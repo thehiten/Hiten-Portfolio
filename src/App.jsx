@@ -1,4 +1,5 @@
 import React from "react";
+import { ThemeProvider } from "./components/ThemeProvider";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -9,16 +10,17 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Home></Home>
-      <About></About>
-      <Portfolio></Portfolio>
-      <Experiance></Experiance>
-      <Contact></Contact>
-      <Footer></Footer>
-     
-    </>
+    <ThemeProvider>
+      <div className="min-h-screen bg-white dark:bg-gray-900 transition-all duration-300">
+        <Navbar />
+        <Home />
+        <About />
+        <Portfolio />
+        <Experiance />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
   );
 }
 
