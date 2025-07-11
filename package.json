@@ -1,8 +1,15 @@
 {
-  "name": "portfolio",
+  "name": "hiten-portfolio",
+  "description": "Hiten Aggarwal's Portfolio - Full-Stack Developer specializing in MERN stack development",
+  "author": "Hiten Aggarwal <hiten.aggarwal005@gmail.com>",
+  "keywords": ["portfolio", "react", "vite", "full-stack", "mern", "developer"],
   "homepage": "https://thehiten.github.io/Hiten-Portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thehiten/Hiten-Portfolio.git"
+  },
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
